@@ -12,7 +12,7 @@ int main(void) {
         return 1;
     }
     
-    printf("Ingrese %d numeros:\n", n);
+    printf("Ingresa %d numeros:\n", n);
     for(int i=0; i<n; i++) {
         printf("Elemento %d:",i);
         scanf("%d", &a[i]);
